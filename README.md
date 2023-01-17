@@ -29,18 +29,18 @@ py app.py
 
 
 # Endpoints
-```bash
+
 GET /items: Retrieve all items from the database
 GET /items/<int:item_id>: Retrieve a specific item by its id from the database
 POST /items: Create a new item in the database
 PUT /items/<int:item_id>: Update an existing item in the database
 DELETE /items/<int:item_id>: Delete an existing item from the database
-```
+
 # Database
-```bash
+
 The template uses SQLite as the database and the db.create_all() function to create the necessary table on the first run. 
 The database file is located at ../instance/mydb.db
-```
+
 # Note
 Make sure that you have the correct version of python (3.11) as well as the correct version of the modules you imported.
 
